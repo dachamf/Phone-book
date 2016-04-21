@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f725f8de-02d2-4e3c-8a6e-a4ca04e43498" name="Default" comment="" />
+    <ignored path="task-3.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/composer.json</pharConfigPath>
+    <pharPath>/usr/local/bin/composer</pharPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="task-3" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-i18n-resources" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-memory" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-http" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-authentication" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-serializer" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-barcode" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-session" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-validator" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-db" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-test" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-mail" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-hydrator" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-di" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-cache" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-uri" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-permissions-rbac" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-console" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-crypt" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-captcha" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-soap" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-mvc" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-debug" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-modulemanager" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-filter" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-math" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-inputfilter" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-text" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-paginator" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-navigation" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-view" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-feed" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-tag" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-file" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-psr7bridge" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-config" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-servicemanager" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-dom" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-version" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-permissions-acl" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zendframework" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/composer" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zendxml" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-server" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-progressbar" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-mime" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-log" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-form" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-loader" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-xmlrpc" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/../../zend-local/ZendSkeletonApplication/vendor/zendframework/zend-i18n" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="959" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f725f8de-02d2-4e3c-8a6e-a4ca04e43498" name="Default" comment="" />
+      <created>1461200092814</created>
+      <option name="number" value="Default" />
+      <updated>1461200092814</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="959" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
