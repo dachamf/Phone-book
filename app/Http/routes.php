@@ -47,15 +47,6 @@ Route::post('/contact/search', [
     'as' => 'contact.search',
 ]);
 
-Route::group(['middleware' => ['web']], function () {
 
-//    Route::get('/', [
-//        'uses' => 'ContactController@getContactIndex',
-//        'as' => 'contact.index',
-//    ]);
-//
-//    Route::get('/contact', [
-//        'uses' => 'ContactController@getContactIndex',
-//        'as' => 'contact.index',
-//    ]);
+Route::group(['middleware' => ['web']], function () {
 });

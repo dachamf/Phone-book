@@ -29,6 +29,11 @@ class ContactController extends Controller
         return view('frontend.contact.index', ['contacts' => $contacts]);
     }
 
+    /**
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+
     public function create()
     {
         return view('frontend.contact.create');
@@ -57,7 +62,9 @@ class ContactController extends Controller
         $contact->comment = $request->comment;
         $contact->save();
 
+        //Set flash message.
         Session::flash('success', 'Contact successfully added!');
+        // Redirect to a frontpage.
         return redirect()->action('ContactController@index');
     }
 
@@ -67,7 +74,9 @@ class ContactController extends Controller
      */
     public function edit($id)
     {
+        //find contact by id.
         $contact = Contact::find($id);
+        //Get a view and pas them a contact object value
         return view('frontend.contact.edit', ['contact' => $contact]);
     }
 
@@ -78,6 +87,7 @@ class ContactController extends Controller
      */
     public function update(Request $request, $id)
     {
+        //Validate request.
         $this->validate($request, [
             'firstName' => 'required|alpha|min:2|max:25',
             'lastName' => 'required|alpha|min:2|max:25',
@@ -95,7 +105,10 @@ class ContactController extends Controller
         $contact->comment = $request->comment;
         $contact->save();
 
+        // Set session flash message.
         Session::flash('success', 'Contact successfully updated!');
+
+        //Redirect to a front page.
         return redirect()->action('ContactController@index');
     }
 
@@ -116,19 +129,20 @@ class ContactController extends Controller
      */
     public function executeSearch(Request $request)
     {
-//        $users = User::where('votes', '>', 100)->paginate(15);
-
+        //Get a search term.
         $searchterm = $request->searchinput;
 
-        $contacts = DB::table('contacts')->where('firstName', 'LIKE', '%'. $searchterm .'%')
-            ->orWhere('lastName', 'LIKE', '%'. $searchterm .'%')
-            ->orWhere('phoneNumber', 'LIKE', '%'. $searchterm .'%')
-            ->orWhere('address', 'LIKE', '%'. $searchterm .'%')->paginate(5);
+        // Get results filtering by search term.
+        $contacts = DB::table('contacts')->where('firstName', 'LIKE', '%' . $searchterm . '%')
+            ->orWhere('lastName', 'LIKE', '%' . $searchterm . '%')
+            ->orWhere('phoneNumber', 'LIKE', '%' . $searchterm . '%')
+            ->orWhere('address', 'LIKE', '%' . $searchterm . '%')->paginate(5);
         if (!count($contacts)) {
             $contacts = array();
             Session::flash('fail', "There is no results matching term '$searchterm'!");
         }
 
+        // Go to search page and pas contacts search result.
         return view('frontend.contact.search', ['contacts' => $contacts]);
 
     }
