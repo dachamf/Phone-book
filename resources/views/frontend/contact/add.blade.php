@@ -1,7 +1,8 @@
+{{--Add contact form page--}}
 @extends('layouts.master')
 
 @section('title')
-    <h1>Add Contact</h1>
+    Add Contact
 @endsection
 
 @section('styles')
@@ -29,10 +30,11 @@
             </fieldset>
             <fieldset class="form-group col-md-7">
                 <label for="comment">Comment</label>
-                <textarea class="form-control" id="comment" placeholder="Last name here" cols="20" rows="5" ></textarea>
+                <textarea class="form-control" id="comment" placeholder="Last name here" cols="20" rows="5"></textarea>
             </fieldset>
             <fieldset class="form-group col-md-7">
                 <input type="button" class="btn btn-primary" value="Add Contact">
+                <input type="hidden" name="_token" value="{{ Session::token() }}">
             </fieldset>
         </div>
     </form>
