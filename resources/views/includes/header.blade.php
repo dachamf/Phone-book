@@ -11,12 +11,12 @@
                 <ul class="nav navbar-nav">
                     <li><a href="/">Home</a></li>
                 </ul>
-                <form class="navbar-form navbar-right" role="search">
+                {!! Form::open(['route' => 'contact.search', 'class' => 'navbar-form navbar-right', 'role' => 'search']) !!}
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
+                        <input type="text" class="form-control" id="serch-input" name="searchinput" placeholder="Search">
                     </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
+                    <button type="submit" class="btn btn-default">Search</button>
+                {!! Form::close() !!}
             </div>
         </div>
     </nav>

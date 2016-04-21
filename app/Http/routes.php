@@ -42,6 +42,11 @@ Route::patch('/contact/{id}',[
     'as' => 'contact.update',
 ]);
 
+Route::post('/contact/search', [
+    'uses' => 'ContactController@executeSearch',
+    'as' => 'contact.search',
+]);
+
 Route::group(['middleware' => ['web']], function () {
 
 //    Route::get('/', [
