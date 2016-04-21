@@ -11,6 +11,28 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/',[
+    'uses' => 'ContactController@getContactIndex',
+    'as' => 'contact.index',
+]);
+Route::get('/contact',[
+    'uses' => 'ContactController@getContactIndex',
+    'as' => 'contact.index',
+]);
+Route::get('/contact/add',[
+    'uses' => 'ContactController@getContactAdd',
+    'as' => 'contact.index',
+]);
+
+Route::group(['middleware' => ['web']], function () {
+
+//    Route::get('/', [
+//        'uses' => 'ContactController@getContactIndex',
+//        'as' => 'contact.index',
+//    ]);
+//
+//    Route::get('/contact', [
+//        'uses' => 'ContactController@getContactIndex',
+//        'as' => 'contact.index',
+//    ]);
 });
