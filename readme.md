@@ -16,13 +16,14 @@ Files can be found here [Git task1 file](http://laravel.com/docs).
 Files can be found here [Git task2 file](http://laravel.com/docs).
 
 1) Create empty db-table
+
 2) You should import dump-task-2db.sql file into empty db table
 
 ## Task 2 answers
+
 1) import script task-2-1.sql or paste this execution code.
 
 ```
-# code block
 SELECT c.Name, (Select Name from zend.employee where empid = c.Supervisor) as Supervisor, c.Salary, ca.Nbonus as Bonus FROM db_name.bonus as ca
  INNER JOIN db_name.employee as c
  on ca.empid = c.empid
@@ -30,8 +31,8 @@ SELECT c.Name, (Select Name from zend.employee where empid = c.Supervisor) as Su
 ```
 
 2) import script task-2-2.sql or paste this execution code.
+
 ```
-# code block
 select c.Name,c.Location, c.Salary, ca.Nbonus as Bonus, (c.Salary + ca.Nbonus) as Total 
 from db_name.employee as c
 inner join db_name.bonus as ca
@@ -41,6 +42,17 @@ order by (c.Salary + ca.Nbonus) desc
 ```
 
 # Task 3
+
+## Task 3 answer:
+-Setup sever environment
+
+XXXXXXXXXXXXXXXXXX******>>>>>LINK ! ! ! !
+
+-Setup a new database for the project.
+-Install composer :
+Laravel utilizes Composer to manage its dependencies. First, download a copy of the composer.phar. Once you have the PHAR archive, you can either keep it in your local project directory or move to usr/local/bin to use it globally on your system. On Windows, you can use the Composer Windows installer.
+Use the download button(upper right corner) or the following link:  "https://github.com/dachamf/Phone-book.git"  to download the file and unpack it into the desired folder 
+
 
 # Laravel PHP Framework
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
