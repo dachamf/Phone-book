@@ -18,11 +18,11 @@ Files can be found here [Git task1 file](https://github.com/dachamf/Phone-book/t
 
 Files can be found here [Git task2 file](https://github.com/dachamf/Phone-book/tree/master/Other_Tasks/task2).
 
-1) Execute task2dump.sql this will create a database with all 
+1) Execute task2dump.sql this will create a database with all necessary data. 
 
 ## Task 2 answers
 
-1) execute script task-2-1.sql or paste this execution code.
+1) execute script task-2-1.sql or execute this code.
 
 ```
 SELECT c.Name, (Select Name from task-2.employee where empid = c.Supervisor) as Supervisor, c.Salary, ca.Nbonus as Bonus FROM task-2.bonus as ca
@@ -31,7 +31,7 @@ SELECT c.Name, (Select Name from task-2.employee where empid = c.Supervisor) as 
  Where ca.Nbonus > 1000;
 ```
 
-2) execute script task-2-2.sql or paste this execution code.
+2) execute script task-2-2.sql or execute this code.
 
 ```
 select c.Name,c.Location, c.Salary, ca.Nbonus as Bonus, (c.Salary + ca.Nbonus) as Total 
@@ -74,6 +74,8 @@ Use the `Download ZIP` button (upper right corner) to download the file and unpa
 
 Once unpacked or cloned use the console and navigate to the root directory of the given project and run the 
 `composer update.`
+
+Optionally you can remove Other_Tasks folder but this is not necessary, which is the directory of first two tasks.  
 
 Also, the following content should be modified, rename `.env.example` in `.env` and change parameters, put your environment parameters.
 
