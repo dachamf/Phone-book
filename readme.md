@@ -69,13 +69,12 @@ On Windows, you can use the Composer Windows installer.
 ---
 
 #### Download project:
-Use the download button(upper right corner) or the [following link:](https://github.com/dachamf/Phone-book.git)  
-to download the file and unpack it into the desired folder 
 
-Once unpacked use the console and navigate to the root directory of the given project and run the 
-`
-composer update.
-`
+
+Use the `Download ZIP` button (upper right corner) to download the file and unpack it into the destination directory(root of the project), or run command `git clone git@github.com:dachamf/Phone-book.git` in the desired directory(root of the project).
+
+Once unpacked or cloned use the console and navigate to the root directory of the given project and run the 
+`composer update.`
 
 Also, the following content should be modified rename `.env.example` in `.env` and change parameters.
 
@@ -101,14 +100,18 @@ No supported encrypter found. The cipher and / or key length are invalid.
 
 you should run `php artisan key:generate` in root directory of project.
 
+
 #### Setup application:
 
 We now have to set up database by executing following command in console `php artisan migrate`.
 
 Now we will be able to run our application without any record in database.
 
-You can add records by clicking `Add new contact` link, or u can execute `php artisan db:seed` command which will add some records into database.
+You can add records by clicking `Add new contact` link, or u can execute `php artisan db:seed` command which will add records into database.
 
+#### Running application:
+
+You can now search, update, delete contacts.
 
 
 ---
