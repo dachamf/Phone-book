@@ -4,10 +4,13 @@ Files can be found here [Git task1 file](http://laravel.com/docs).
 ## Task 1 answers
 
 1. Did you write that as if you were writing production code?
+
   -- Yes it is writen like is production.
 2. What assumptions does your implementation make about the input parameter?
+
   -- Input parameter should be an array.
 3. What is the algorithmic complexity ("big O") of your function?
+
   -- Algoritmic complexity of the function is "o(log n)"
   
   
