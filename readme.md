@@ -43,15 +43,44 @@ order by (c.Salary + ca.Nbonus) desc
 
 # Task 3
 
-## Task 3 answer:
--Setup sever environment
+## Task 3 instalation:
 
-XXXXXXXXXXXXXXXXXX******>>>>>LINK ! ! ! !
+#### Setup sever environment
 
--Setup a new database for the project.
--Install composer :
-Laravel utilizes Composer to manage its dependencies. First, download a copy of the composer.phar. Once you have the PHAR archive, you can either keep it in your local project directory or move to usr/local/bin to use it globally on your system. On Windows, you can use the Composer Windows installer.
-Use the download button(upper right corner) or the following link:  "https://github.com/dachamf/Phone-book.git"  to download the file and unpack it into the desired folder 
+[for windows](http://www.sitepoint.com/how-to-install-apache-on-windows/)
+
+[for linux](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu)
+
+[for osx](https://coolestguidesontheplanet.com/get-apache-mysql-php-phpmyadmin-working-osx-10-10-yosemite/)
+
+### Setup a new database for the project.
+
+Create new empty database for the project 
+
+
+### Install composer :
+Laravel utilizes Composer to manage its dependencies. First, download a copy of the composer.phar. Once you have the PHAR archive, 
+you can either keep it in your local project directory or move to usr/local/bin to use it globally on your system.
+On Windows, you can use the Composer Windows installer.
+
+Use the download button(upper right corner) or the [following link:](https://github.com/dachamf/Phone-book.git)  
+to download the file and unpack it into the desired folder 
+
+Once unpacked use the console and navigate to the root directory of the given project and run the 
+```
+composer update
+```.
+
+Also, the following should be modified in the `.env file`:
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+```
 
 
 # Laravel PHP Framework
