@@ -77,7 +77,7 @@ Once unpacked use the console and navigate to the root directory of the given pr
 composer update.
 `
 
-Also, the following should be modified in the `.env file`:
+Also, the following content should be modified rename `.env.example` in `.env` and change parameters.
 
 ```
 DB_CONNECTION=mysql
@@ -87,7 +87,8 @@ DB_DATABASE=homestead
 DB_USERNAME=homestead
 DB_PASSWORD=secret
 ```
-#### Runing application:
+
+#### Running application:
 
 Now application should be ready.
 
@@ -100,7 +101,13 @@ No supported encrypter found. The cipher and / or key length are invalid.
 
 you should run `php artisan key:generate` in root directory of project.
 
+#### Setup application:
 
+We now have to set up database by executing following command in console `php artisan migrate`.
+
+Now we will be able to run our application, and should see 
+
+![Image](http://screencast.com/t/SheILS4e6)
 
 ---
 
