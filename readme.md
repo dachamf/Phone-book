@@ -77,7 +77,7 @@ Use the `Download ZIP` button (upper right corner) to download the file and unpa
 Once unpacked or cloned use the console and navigate to the root directory of the given project and run the 
 `composer update.`
 
-Also, the following content should be modified rename `.env.example` in `.env` and change parameters.
+Also, the following content should be modified, rename `.env.example` in `.env` and change parameters, put your environment parameters.
 
 ```
 DB_CONNECTION=mysql
