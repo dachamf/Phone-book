@@ -21,20 +21,24 @@ Files can be found here [Git task2 file](http://laravel.com/docs).
 ## Task 2 answers
 1) import script task-2-1.sql or paste this execution code.
 
-`SELECT c.Name, (Select Name from zend.employee where empid = c.Supervisor) as Supervisor, c.Salary, ca.Nbonus as Bonus FROM zend.bonus as ca
- INNER JOIN zend.employee as c
+```
+# code block
+SELECT c.Name, (Select Name from zend.employee where empid = c.Supervisor) as Supervisor, c.Salary, ca.Nbonus as Bonus FROM db_name.bonus as ca
+ INNER JOIN db_name.employee as c
  on ca.empid = c.empid
- Where ca.Nbonus > 100;`
+ Where ca.Nbonus > 1000;
+```
 
 2) import script task-2-2.sql or paste this execution code.
-
-`select c.Name,c.Location, c.Salary, ca.Nbonus as Bonus, (c.Salary + ca.Nbonus) as Total 
- from zend.employee as c
- inner join zend.bonus as ca
- on ca.empid = c.empid
- where (c.Salary + ca.Nbonus)  in (Select max(d.Salary + da.Nbonus) from zend.employee as d inner join zend.bonus as da on da.empid = d.empid group by Location)
- order by (c.Salary + ca.Nbonus) desc`
-
+```
+# code block
+select c.Name,c.Location, c.Salary, ca.Nbonus as Bonus, (c.Salary + ca.Nbonus) as Total 
+from db_name.employee as c
+inner join db_name.bonus as ca
+on ca.empid = c.empid
+where (c.Salary + ca.Nbonus)  in (Select max(d.Salary + da.Nbonus) from db_name.employee as d inner join db_name.bonus as da on da.empid = d.empid group by Location)
+order by (c.Salary + ca.Nbonus) desc
+```
 
 # Task 3
 
