@@ -50,11 +50,11 @@ order by (c.Salary + ca.Nbonus) desc
 
 #### Setup sever environment
 
-[for windows](http://www.sitepoint.com/how-to-install-apache-on-windows/)
+Follow instructins [for windows](http://www.sitepoint.com/how-to-install-apache-on-windows/)
 
-[for linux](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu)
+Follow instructins [for linux](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu)
 
-[for osx](https://coolestguidesontheplanet.com/get-apache-mysql-php-phpmyadmin-working-osx-10-10-yosemite/)
+Follow instructins [for osx](https://coolestguidesontheplanet.com/get-apache-mysql-php-phpmyadmin-working-osx-10-10-yosemite/)
 
 ### Setup a new database for the project.
 
