@@ -68,7 +68,7 @@ On Windows, you can use the Composer Windows installer.
 
 ---
 
-#### Download project
+#### Download project:
 Use the download button(upper right corner) or the [following link:](https://github.com/dachamf/Phone-book.git)  
 to download the file and unpack it into the desired folder 
 
@@ -87,7 +87,22 @@ DB_DATABASE=homestead
 DB_USERNAME=homestead
 DB_PASSWORD=secret
 ```
+#### Runing application:
 
+Now application should be ready.
+
+If you have an error with following message
+
+```
+RuntimeException in EncryptionServiceProvider.php line 45:
+No supported encrypter found. The cipher and / or key length are invalid.
+```
+
+you should run `php artisan key:generate` in root directory of project.
+
+
+
+---
 
 # Laravel PHP Framework
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
