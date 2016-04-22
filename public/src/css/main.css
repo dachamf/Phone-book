@@ -5,6 +5,7 @@ body{
     width: 85%;
     margin: 0 auto;
     background-color: white;
+    min-height: 65vh;
 }
 
 .info{
