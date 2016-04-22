@@ -107,7 +107,7 @@ We now have to set up database by executing following command in console `php ar
 
 Now we will be able to run our application, and should see 
 
-![Image](http://screencast.com/t/SheILS4e6)
+![Image](https://www.dropbox.com/s/ouuqqzo8s9ys3tv/app-without-contacts.png?dl=0)
 
 ---
 
