@@ -65,7 +65,10 @@ Create new empty database for the project
 Laravel utilizes Composer to manage its dependencies. First, download a copy of the composer.phar. Once you have the PHAR archive, 
 you can either keep it in your local project directory or move to usr/local/bin to use it globally on your system.
 On Windows, you can use the Composer Windows installer.
+
 ---
+
+
 Use the download button(upper right corner) or the [following link:](https://github.com/dachamf/Phone-book.git)  
 to download the file and unpack it into the desired folder 
 
