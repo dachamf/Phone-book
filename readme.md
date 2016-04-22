@@ -18,29 +18,27 @@ Files can be found here [Git task1 file](https://github.com/dachamf/Phone-book/t
 
 Files can be found here [Git task2 file](https://github.com/dachamf/Phone-book/tree/master/Other_Tasks/task2).
 
-1) Create empty db-table
-
-2) You should import dump-task-2db.sql file into empty db table
+1) Execute task2dump.sql this will create a database with all 
 
 ## Task 2 answers
 
-1) import script task-2-1.sql or paste this execution code.
+1) execute script task-2-1.sql or paste this execution code.
 
 ```
-SELECT c.Name, (Select Name from zend.employee where empid = c.Supervisor) as Supervisor, c.Salary, ca.Nbonus as Bonus FROM db_name.bonus as ca
- INNER JOIN db_name.employee as c
+SELECT c.Name, (Select Name from task-2.employee where empid = c.Supervisor) as Supervisor, c.Salary, ca.Nbonus as Bonus FROM task-2.bonus as ca
+ INNER JOIN task-2.employee as c
  on ca.empid = c.empid
  Where ca.Nbonus > 1000;
 ```
 
-2) import script task-2-2.sql or paste this execution code.
+2) execute script task-2-2.sql or paste this execution code.
 
 ```
 select c.Name,c.Location, c.Salary, ca.Nbonus as Bonus, (c.Salary + ca.Nbonus) as Total 
-from db_name.employee as c
-inner join db_name.bonus as ca
+from task-2.employee as c
+inner join task-2.bonus as ca
 on ca.empid = c.empid
-where (c.Salary + ca.Nbonus)  in (Select max(d.Salary + da.Nbonus) from db_name.employee as d inner join db_name.bonus as da on da.empid = d.empid group by Location)
+where (c.Salary + ca.Nbonus)  in (Select max(d.Salary + da.Nbonus) from task-2.employee as d inner join task-2.bonus as da on da.empid = d.empid group by Location)
 order by (c.Salary + ca.Nbonus) desc
 ```
 
