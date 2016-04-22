@@ -105,9 +105,11 @@ you should run `php artisan key:generate` in root directory of project.
 
 We now have to set up database by executing following command in console `php artisan migrate`.
 
-Now we will be able to run our application, and should see 
+Now we will be able to run our application without any record in database.
 
-![Image](https://www.dropbox.com/s/ouuqqzo8s9ys3tv/app-without-contacts.png)
+You can add records by clicking `Add new contact` link, or u can execute `php artisan db:seed` command which will add some records into database.
+
+
 
 ---
 
