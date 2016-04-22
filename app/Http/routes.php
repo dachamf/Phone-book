@@ -11,6 +11,42 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/',[
+    'uses' => 'ContactController@index',
+    'as' => 'contact.index',
+]);
+Route::get('/contact',[
+    'uses' => 'ContactController@index',
+    'as' => 'contact.index',
+]);
+Route::get('/contact/create',[
+    'uses' => 'ContactController@create',
+    'as' => 'contact.create',
+]);
+Route::post('/contact',[
+    'uses' => 'ContactController@store',
+    'as' => 'contact.store',
+]);
+Route::get('/contact/{id}/edit',[
+    'uses' => 'ContactController@edit',
+    'as' => 'contact.edit',
+]);
+
+Route::delete('/contact/{id}',[
+    'uses' => 'ContactController@delete',
+    'as' => 'contact.delete',
+]);
+
+Route::patch('/contact/{id}',[
+    'uses' => 'ContactController@update',
+    'as' => 'contact.update',
+]);
+
+Route::post('/contact/search', [
+    'uses' => 'ContactController@executeSearch',
+    'as' => 'contact.search',
+]);
+
+
+Route::group(['middleware' => ['web']], function () {
 });

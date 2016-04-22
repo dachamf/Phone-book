@@ -1,0 +1,28 @@
+body{
+    margin: 0 auto;
+}
+.content{
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.info{
+    width: 40%;
+    margin: 0 auto;
+}
+.user-gliph{
+    font-size: 150px;
+}
+
+
+
+
+.footer{
+    background-color: #337ab7;
+    min-height: 270px;
+    text-align: center;
+    padding-top: 130px;
+    color: white;
+    margin-bottom: -15px;
+}
