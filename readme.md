@@ -67,9 +67,9 @@ Use the download button(upper right corner) or the [following link:](https://git
 to download the file and unpack it into the desired folder 
 
 Once unpacked use the console and navigate to the root directory of the given project and run the 
-```
-composer update
-```.
+`
+composer update.
+`
 
 Also, the following should be modified in the `.env file`:
 
