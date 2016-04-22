@@ -1,5 +1,5 @@
 # Task 1
-Files can be found here [Git task1 file](http://laravel.com/docs).
+Files can be found here [Git task1 file](https://github.com/dachamf/Phone-book/tree/master/Other_Tasks/task1).
 
 ## Task 1 answers
 
@@ -16,7 +16,7 @@ Files can be found here [Git task1 file](http://laravel.com/docs).
   
 # Task 2
 
-Files can be found here [Git task2 file](http://laravel.com/docs).
+Files can be found here [Git task2 file](https://github.com/dachamf/Phone-book/tree/master/Other_Tasks/task2).
 
 1) Create empty db-table
 

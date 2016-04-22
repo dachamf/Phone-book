@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `task-2` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `task-2`;
 -- MySQL dump 10.13  Distrib 5.6.24, for osx10.8 (x86_64)
 --
 -- Host: 127.0.0.1    Database: zend
@@ -66,6 +68,14 @@ LOCK TABLES `employee` WRITE;
 INSERT INTO `employee` VALUES (2,'Dalibor Djordjevic',NULL,'Ni',50000),(3,'Predrag Markovic',2,'Bg',35000),(4,'Miroslav Milanovic',2,'Bg',30000),(5,'Marinko Magla',2,'Ni',25000),(6,'Misko Maksimovic',3,'Ni',100000);
 /*!40000 ALTER TABLE `employee` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Dumping events for database 'zend'
+--
+
+--
+-- Dumping routines for database 'zend'
+--
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -76,4 +86,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-04-22 17:49:44
+-- Dump completed on 2016-04-23  0:54:58
