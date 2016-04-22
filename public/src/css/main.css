@@ -1,8 +1,10 @@
+body{
+    margin: 0 auto;
+}
 .content{
     width: 85%;
     margin: 0 auto;
-    /*background-image: url("http://www.clipartbest.com/cliparts/9TR/zx8/9TRzx8dAc.png");*/
-    /*background-repeat: no-repeat;*/
+    background-color: white;
 }
 
 .info{
@@ -16,11 +18,11 @@
 
 
 
-/*.footer{*/
-    /*background-color: dodgerblue;*/
-    /*min-height: 570px;*/
-    /*text-align: center;*/
-    /*padding-top: 130px;*/
-    /*color: white;*/
-    /*font-size: 14px;*/
-/*}*/
+.footer{
+    background-color: #337ab7;
+    min-height: 270px;
+    text-align: center;
+    padding-top: 130px;
+    color: white;
+    margin-bottom: -15px;
+}

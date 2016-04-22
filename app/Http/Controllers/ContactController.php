@@ -143,7 +143,7 @@ class ContactController extends Controller
         }
 
         // Go to search page and pas contacts search result.
-        return view('frontend.contact.search', ['contacts' => $contacts]);
+        return view('frontend.contact.search', ['contacts' => $contacts, 'searchterm' => $searchterm]);
 
     }
 

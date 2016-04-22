@@ -9,6 +9,7 @@
     <h1>
         Search
     </h1>
+    <p>results for <strong>{{ $searchterm }}</strong></p>
     @include('includes.info-box')
     <hr>
     @if(!empty($contacts))
