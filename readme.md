@@ -77,7 +77,7 @@ Once unpacked or cloned use the console and navigate to the root directory of th
 
 Optionally you can remove Other_Tasks folder but this is not necessary, which is the directory of first two tasks.  
 
-Also, the following content should be modified, rename `.env.example` in `.env` and change parameters, put your environment parameters.
+Also, the following content should be modified, rename `.env.example` in `.env` and change parameters (previously created database parameters).
 
 ```
 DB_CONNECTION=mysql
